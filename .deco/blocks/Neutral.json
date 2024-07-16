@@ -26,19 +26,8 @@
     "--tab-radius": "0.5rem"
   },
   "font": {
-    "fonts": [
-      {
-        "variations": [
-          {
-            "weight": "100"
-          },
-          {
-            "weight": "400"
-          }
-        ],
-        "family": "Inter"
-      }
-    ]
+    "family": "light",
+    "styleSheet": "light"
   },
   "mode": "light"
 }

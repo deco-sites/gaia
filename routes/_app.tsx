@@ -28,17 +28,25 @@ export default defineApp(async (_req, ctx) => {
         <style
           dangerouslySetInnerHTML={{
             __html: 
-                `@font-face {
-                  font-family: 'Crystal';
-                  font-style: normal;
-                  font-weight: 500;
-                  font-display: swap;
-                  src: url(${asset("/Crystal-Regular.otf")}) format('otf');
-                }
-                :root {
-                  --font-family: Crystal, sans-serif !important;
-                }  
-                `
+            
+            `
+            .text-ibm {
+                font-family: "IBM Plex Mono", monospace;
+            }
+
+            @font-face {
+                font-family: 'aqui';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(${asset("/crystal-medium-webfont.woff")}) format('woff');
+            }
+            .crystal {
+                font-family: "aqui", sans-serif;
+            }
+            :root {
+                --font-family: "aqui", sans-serif !important;
+            }`
           }}
         />
       </Head>

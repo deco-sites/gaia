@@ -18,7 +18,7 @@
     {
       "__resolveType": "site/sections/Section-3.tsx",
       "text_1": "Sobre",
-      "text_2": "<p><span style=\"color: #5e5e5e; font-size: 26pt\">Somos uma </span><strong><span style=\"color: #ffffff; font-size: 26pt\">DataTech de próxima geração,</span></strong><span style=\"color: #5e5e5e; font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></p><p><strong><span style=\"color: #ffffff; font-size: 26pt\">Criamos produtos e serviços</span></strong><span style=\"color: #5e5e5e; font-size: 26pt\"> que geram valor real para nossos clientes. </span><strong><span style=\"color: #ffffff; font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span></strong><span style=\"color: #5e5e5e; font-size: 26pt\"> em modelo SaaS.</span></p>"
+      "text_2": "<p><strong><span style=\"color: rgb(94, 94, 94); font-size: 26pt\">Somos uma </span></strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></p><p><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Criamos produtos e serviços</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> que geram valor real para nossos clientes. </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> em modelo SaaS.</span></p>"
     },
     {
       "__resolveType": "site/sections/Section-4.tsx",
