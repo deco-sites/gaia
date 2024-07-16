@@ -1,1 +1,170 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"site/sections/ItWorks.tsx","name":"It Works!"},{"__resolveType":"Footer"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Navbar-1.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/1a8b2412-9dc2-473a-8972-2ab8f40cee14",
+      "width": 40
+    },
+    {
+      "__resolveType": "site/sections/Section-1.tsx",
+      "text_1": "Transformar negócios",
+      "text_2": "Traduzindo dados"
+    },
+    {
+      "__resolveType": "site/sections/Section-2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Section-3.tsx",
+      "text_1": "Sobre",
+      "text_2": "<p><span style=\"color: #5e5e5e; font-size: 26pt\">Somos uma </span><strong><span style=\"color: #ffffff; font-size: 26pt\">DataTech de próxima geração,</span></strong><span style=\"color: #5e5e5e; font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></p><p><strong><span style=\"color: #ffffff; font-size: 26pt\">Criamos produtos e serviços</span></strong><span style=\"color: #5e5e5e; font-size: 26pt\"> que geram valor real para nossos clientes. </span><strong><span style=\"color: #ffffff; font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span></strong><span style=\"color: #5e5e5e; font-size: 26pt\"> em modelo SaaS.</span></p>"
+    },
+    {
+      "__resolveType": "site/sections/Section-4.tsx",
+      "title_1": "SaaS reiventado",
+      "text_1": "Domine o poder dos seus próprios dados a partir dos nossos produtos & serviços.",
+      "text_2": "Atendimento customizado e sempre próximo.",
+      "image_1": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/e7bc2ae7-f7e1-4502-940b-b1cb829165ba",
+      "width_1": "100%",
+      "image_2": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/967d85e9-6ed6-4b76-a0a6-46bd57939d69",
+      "width_2": "100%",
+      "image_3": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/70ad8308-f222-4eb3-aca9-efd203856c00",
+      "width_3": "100%",
+      "text_3": "Nós apoiamos empresas a gerarem valor a partir de dados.",
+      "images": [
+        {
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/ec5e1f78-f3e2-41cf-935d-716487575c52",
+          "alt": "Aqui",
+          "text_image": "Domine o poder dos seus próprios dados a partir dos nossos produtos & serviços.",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/26bee098-a7b4-4f38-939b-00ddc6e9705f"
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/8208a582-920c-4d8c-8f33-4e5ff9da39b9",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/9723b43e-51ee-4870-afac-996107d61d3b",
+          "alt": "descrição da imagem",
+          "text_image": "Atendimento customizado e sempre próximo.",
+          "contentAlignment": "right"
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/3c89cea7-f344-4a05-9fcf-d13bfe4872b8",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/d901418c-ba5c-43bf-a1ba-6c66f3519bc3",
+          "alt": "Descrição da imagem",
+          "text_image": "Nós apoiamos empresas a gerarem valor a partir de dados."
+        }
+      ],
+      "title": "SaaS Reinventado"
+    },
+    {
+      "__resolveType": "site/sections/Space-1.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Section-5.tsx",
+      "header": {
+        "title": "Produtos"
+      },
+      "content": [
+        {
+          "number": 1,
+          "title": "SaaS",
+          "subtitle": "Software as a service",
+          "label": "Conteúdo 1"
+        },
+        {
+          "number": 2,
+          "title": "CaaS",
+          "subtitle": "Custom as a service",
+          "label": "Conteúdo 2"
+        }
+      ],
+      "cardContent": [
+        {
+          "number": 1,
+          "title": "SaaS",
+          "label": "Conteúdo 1",
+          "subtitle": "Software as a service",
+          "sidebarContent": {
+            "title": "Aqui tem um título",
+            "subtitle": "Aqui tem um subtitulo"
+          },
+          "sidebarSection": {
+            "0": {
+              "title": "Aqui tem um título",
+              "text": "Aqui tem um texto",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/7e616f5f-74a0-48a7-9aee-67346d295093",
+              "title_1": "Aqui tem um título no corpo",
+              "text_1": "Aqui tem um texto no corpo"
+            },
+            "1": {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/a26673ba-c1aa-47e5-95b8-8d45e5cb3520",
+              "title_1": "asdasd",
+              "text_1": "aasdasdasd"
+            },
+            "sidebarContentSection": [
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/da9027b0-92b0-41ba-af0b-66b9dcf97315"
+              },
+              {
+                "title": "Título 01",
+                "text": "Somos uma DataTech de próxima geração, especializada em transformar dados em inteligência de negócios."
+              },
+              {
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/7e25f0ee-26a4-438a-904e-c044ec9b0911"
+              },
+              {
+                "title": "Título 02",
+                "text": "Somos uma DataTech de próxima geração, especializada em transformar dados em inteligência de negócios."
+              },
+              {
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+              }
+            ],
+            "sidebarSection": {
+              "title": "SaaS",
+              "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            }
+          }
+        },
+        {
+          "sidebarSection": {
+            "sidebarContentSection": [
+              {
+                "title": "Título pequeno",
+                "text": "Descrição do produto e o que ele oferece",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/b74b73f5-eae3-40d7-9cbd-11f51f24547c"
+              }
+            ],
+            "sidebarSection": {
+              "title": "CaaS",
+              "text": "Aqui tem uma descria sessão"
+            }
+          },
+          "number": 2,
+          "title": "CaaS",
+          "subtitle": "Custom as a service",
+          "label": "Conteúdo 2"
+        }
+      ],
+      "sidebarSection": [
+        {}
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Section-6.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/fefc545c-80db-4f91-a2ab-c56226d27ad3"
+    },
+    {
+      "__resolveType": "site/sections/Section-7.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Section-8.tsx"
+    },
+    {
+      "__resolveType": "site/sections/borders.tsx"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -48,5 +48,13 @@
   "/.deco/blocks/deco-blog.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/blog.ts"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FSection-1.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Section-1.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FNavbar-1.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Navbar-1.tsx"
   }
 }

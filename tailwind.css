@@ -3,10 +3,19 @@
 @tailwind utilities;
 
 @layer base {
+  
+  /* @font-face {
+    font-family: 'Crystal';
+    src: url('static/Crystal-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+} */
 
   /* Allow changing font family via CMS */
-  html {
+html {
     font-family: var(--font-family);
+    /* font-family: Crystal, sans-serif !important; */
+    scroll-behavior: smooth;
   }
 
   /** Remove default styles from input[type=number] */

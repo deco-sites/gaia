@@ -24,6 +24,23 @@ export default defineApp(async (_req, ctx) => {
 
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
+
+        <style
+          dangerouslySetInnerHTML={{
+            __html: 
+                `@font-face {
+                  font-family: 'Crystal';
+                  font-style: normal;
+                  font-weight: 300;
+                  font-display: swap;
+                  src: url(${asset("/Crystal-Regular.otf")}) format('otf');
+                }
+                :root {
+                  --font-family: Crystal, sans-serif !important;
+                }  
+                `
+          }}
+        />
       </Head>
 
       {/* Rest of Preact tree */}

@@ -5,15 +5,37 @@
 import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
+import * as $$$$$$13 from "./sections/borders.tsx";
 import * as $$$$$$0 from "./sections/Footer.tsx";
 import * as $$$$$$1 from "./sections/ItWorks.tsx";
-import * as $$$$$$2 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$2 from "./sections/Navbar-1.tsx";
+import * as $$$$$$3 from "./sections/Section-1.tsx";
+import * as $$$$$$4 from "./sections/Section-2.tsx";
+import * as $$$$$$5 from "./sections/Section-3.tsx";
+import * as $$$$$$6 from "./sections/Section-4.tsx";
+import * as $$$$$$7 from "./sections/Section-5.tsx";
+import * as $$$$$$8 from "./sections/Section-6.tsx";
+import * as $$$$$$9 from "./sections/Section-7.tsx";
+import * as $$$$$$10 from "./sections/Section-8.tsx";
+import * as $$$$$$11 from "./sections/Space-1.tsx";
+import * as $$$$$$12 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
+    "site/sections/borders.tsx": $$$$$$13,
     "site/sections/Footer.tsx": $$$$$$0,
     "site/sections/ItWorks.tsx": $$$$$$1,
-    "site/sections/Theme/Theme.tsx": $$$$$$2,
+    "site/sections/Navbar-1.tsx": $$$$$$2,
+    "site/sections/Section-1.tsx": $$$$$$3,
+    "site/sections/Section-2.tsx": $$$$$$4,
+    "site/sections/Section-3.tsx": $$$$$$5,
+    "site/sections/Section-4.tsx": $$$$$$6,
+    "site/sections/Section-5.tsx": $$$$$$7,
+    "site/sections/Section-6.tsx": $$$$$$8,
+    "site/sections/Section-7.tsx": $$$$$$9,
+    "site/sections/Section-8.tsx": $$$$$$10,
+    "site/sections/Space-1.tsx": $$$$$$11,
+    "site/sections/Theme/Theme.tsx": $$$$$$12,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,
