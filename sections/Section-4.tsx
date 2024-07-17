@@ -50,7 +50,7 @@ function SectionItem(
           width={0}
           class={"w-full max-w-[411px]"}
         />
-        <p class="text-2xl font-medium text-white max-w-[411px] leading-[110%]">{text_image}</p>
+        <p class="text-[26px] font-medium text-white max-w-[408px] leading-[110%]">{text_image}</p>
     </div>
   )
 }
