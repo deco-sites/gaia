@@ -43,14 +43,14 @@ function SectionItem(
   } = image;
 
   return (
-    <div class={`grid gap-8 justify-center md:justify-start ${contentAlignment === 'right' ? "order-2" : ""}`}>
+    <div class={`grid gap-8 justify-center ${contentAlignment === 'right' ? "order-2 md:justify-end" : "md:justify-start"}`}>
         <Image
           src={desktop}
           alt={alt}
           width={0}
           class={"w-full max-w-[411px]"}
         />
-        <p class="text-xl font-base text-white max-w-[411px] leading-[110%]">{text_image}</p>
+        <p class="text-2xl font-medium text-white max-w-[411px] leading-[110%]">{text_image}</p>
     </div>
   )
 }

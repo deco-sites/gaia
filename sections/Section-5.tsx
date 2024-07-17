@@ -1,5 +1,5 @@
 
-import { useId } from "../sdk/useId.ts";
+// import { useId } from "../sdk/useId.ts";
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
@@ -96,7 +96,7 @@ const DEFAULT_LAYOUT = [
 // ];
 
 function Section5(props: Props){
-    const id = useId();
+    // const id = useId();
     const {
         header = {
             title: "Texto aqui",
@@ -160,7 +160,6 @@ function Section5(props: Props){
                                         <div class="md:col-span-2">
                                             <div class="w-full max-w-[615px]">
                                                 <p class="text-md md:text-xl font-medium text-black">{text}</p>
-                                                {/* <p class="text-md md:text-xl font-normal text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> */}
                                             </div>
                                         </div>
                                     </div>
