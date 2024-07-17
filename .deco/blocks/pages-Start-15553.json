@@ -4,7 +4,20 @@
   "sections": [
     {
       "__resolveType": "site/sections/Navbar-1.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/1a8b2412-9dc2-473a-8972-2ab8f40cee14",
+      "image": {
+        "__resolveType": "website/flags/multivariate/image.ts",
+        "variants": [
+          {
+            "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/1a8b2412-9dc2-473a-8972-2ab8f40cee14"
+          },
+          {
+            "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/1a8b2412-9dc2-473a-8972-2ab8f40cee14",
+            "rule": {
+              "__resolveType": "website/matchers/always.ts"
+            }
+          }
+        ]
+      },
       "width": 40
     },
     {
@@ -18,11 +31,7 @@
     {
       "__resolveType": "site/sections/Section-3.tsx",
       "text_1": "Sobre",
-<<<<<<< HEAD
-      "text_2": "<p><strong><span style=\"color: rgb(94, 94, 94); font-size: 26pt\">Somos uma </span></strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></p><p><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Criamos produtos e serviços</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> que geram valor real para nossos clientes. </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> em modelo SaaS.</span></p>"
-=======
-      "text_2": "<p><span style=\"color: rgb(94, 94, 94); font-size: 26pt; font-weight: 500\">Somos uma </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Criamos produtos e serviços</span></strong><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> que geram valor real para nossos clientes. </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span></strong><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> em modelo SaaS.</span></p>"
->>>>>>> 65dbfcb9a48fb6cef041f346eae84873d59eed37
+      "text_2": "<p><strong><span style=\"color: rgb(94, 94, 94); font-size: 26pt\">Somos uma </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Criamos produtos e serviços</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> que geram valor real para nossos clientes. </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> em modelo SaaS.</span></strong></p>"
     },
     {
       "__resolveType": "site/sections/Section-4.tsx",
@@ -57,7 +66,7 @@
           "text_image": "Nós apoiamos empresas a gerarem valor a partir de dados."
         }
       ],
-      "title": "SaaS Reinventado"
+      "title": "SaaS Reiventado"
     },
     {
       "__resolveType": "site/sections/Space-1.tsx"
