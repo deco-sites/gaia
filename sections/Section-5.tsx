@@ -119,26 +119,28 @@ function Section5(props: Props){
                                 <p class="text-md md:text-xl font-normal text-black">{sidebarSection?.sidebarSection?.text}</p>
                             </div>
                             
-                            {sidebarSection?.sidebarContentSection?.map(( { title, text_1, image } ) => (
-                            <div class="grid mb-[92px]">
-                                { image && (
-                                    <Image
-                                    src={image || ""}
-                                    // alt={alt}
-                                    width={0}
-                                    class={"w-full"}
-                                    />
-                                )}
-                                <div class="grid md:grid-cols-3 gap-5 px-4 md:px-8">
-                                    <p class="text-md font-medium text-black">{title}</p>
-                                    <div class="md:col-span-2">
-                                        <div class="w-full max-w-[615px]" dangerouslySetInnerHTML={{__html: text_1,}}>
-                                            {/* <p class="text-md md:text-xl font-medium text-black"dangerouslySetInnerHTML={{__html: text}}></p> */}
+                            <div class="grid gap-[92px]">
+                                {sidebarSection?.sidebarContentSection?.map(( { title, text_1, image } ) => (
+                                <div class="grid">
+                                    { image && (
+                                        <Image
+                                        src={image || ""}
+                                        // alt={alt}
+                                        width={0}
+                                        class={"w-full"}
+                                        />
+                                    )}
+                                    <div class="grid md:grid-cols-3 gap-5 px-4 md:px-8 mt-[92px]">
+                                        <p class="text-md font-medium text-black">{title}</p>
+                                        <div class="md:col-span-2">
+                                            <div class="w-full max-w-[615px]" dangerouslySetInnerHTML={{__html: text_1,}}>
+                                                {/* <p class="text-md md:text-xl font-medium text-black"dangerouslySetInnerHTML={{__html: text}}></p> */}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                ))}
                             </div>
-                            ))}
                             <div class="mt-[100px] md:mt-[260px] border-t-2 py-[60px]">
                                 <div class="grid md:grid-cols-3 px-8">
                                     <div class="md:col-start-2 md:col-span-2">
