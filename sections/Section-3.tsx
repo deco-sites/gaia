@@ -1,14 +1,22 @@
 interface Props {
   /**
    * @description Título.
+   * @title Título.
    */
   text_1?: string;
   /**
    * @format rich-text
    * @description Texto de descrição.
    * @default It Works!
+   * @title Texto desktop
    */
   text_desktop: string;
+  /**
+   * @format rich-text
+   * @description Texto de descrição.
+   * @default It Works!
+   * @title Texto mobile 
+   */
   text_mobile: string;
 }
 
