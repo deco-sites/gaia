@@ -8,9 +8,6 @@
         "__resolveType": "website/flags/multivariate/image.ts",
         "variants": [
           {
-            "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/1a8b2412-9dc2-473a-8972-2ab8f40cee14"
-          },
-          {
             "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/1a8b2412-9dc2-473a-8972-2ab8f40cee14",
             "rule": {
               "__resolveType": "website/matchers/always.ts"
@@ -31,7 +28,9 @@
     {
       "__resolveType": "site/sections/Section-3.tsx",
       "text_1": "Sobre",
-      "text_2": "<p><strong><span style=\"color: rgb(94, 94, 94); font-size: 26pt\">Somos uma </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Criamos produtos e serviços</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> que geram valor real para nossos clientes. </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> em modelo SaaS.</span></strong></p>"
+      "text_2": "<p><strong><span style=\"color: rgb(94, 94, 94); font-size: 26pt\">Somos uma </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Criamos produtos e serviços</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> que geram valor real para nossos clientes. </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> em modelo SaaS.</span></strong></p>",
+      "text_desktop": "<p><strong><span style=\"color: rgb(94, 94, 94); font-size: 26pt\">Somos uma </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></strong></p><p style=\"text-align: start\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Criamos produtos e serviços</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> que geram valor real para nossos clientes. </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> em modelo SaaS.</span></strong></p>",
+      "text_mobile": "<p><strong><span style=\"color: rgb(94, 94, 94); font-size: 18pt\">Somos uma </span><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 18pt\"> especializada em transformar dados em inteligência de negócios.</span></strong></p><p style=\"text-align: start\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">Criamos produtos e serviços</span><span style=\"color: rgb(94, 94, 94); font-size: 18pt\"> que geram valor real para nossos clientes. </span><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span><span style=\"color: rgb(94, 94, 94); font-size: 18pt\"> em modelo SaaS.</span></strong></p>"
     },
     {
       "__resolveType": "site/sections/Section-4.tsx",
@@ -94,7 +93,7 @@
         {
           "number": 1,
           "title": "SaaS",
-          "label": "Conteúdo 1",
+          "label": "SaaS",
           "subtitle": "Software as a service",
           "sidebarContent": {
             "title": "Aqui tem um título",
@@ -115,24 +114,14 @@
             },
             "sidebarContentSection": [
               {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/da9027b0-92b0-41ba-af0b-66b9dcf97315"
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/da9027b0-92b0-41ba-af0b-66b9dcf97315",
+                "title": "Titulo 01",
+                "text_1": "<p><span style=\"font-size: 17pt\">Somos uma DataTech de próxima geração, especializada em transformar dados em inteligência de negócios.</span></p><p><span style=\"font-size: 17pt\"><br>Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p><p></p>"
               },
               {
-                "title": "Título 01",
-                "text": "Somos uma DataTech de próxima geração, especializada em transformar dados em inteligência de negócios."
-              },
-              {
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/7e25f0ee-26a4-438a-904e-c044ec9b0911"
-              },
-              {
-                "title": "Título 02",
-                "text": "Somos uma DataTech de próxima geração, especializada em transformar dados em inteligência de negócios."
-              },
-              {
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/f023622d-9052-4a7f-a801-a66ffe3b5a1d",
+                "text_1": "<p><span style=\"font-size: 17pt\">Somos uma DataTech de próxima geração, especializada em transformar dados em inteligência de negócios.</span></p><p><span style=\"font-size: 17pt\"><br>Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p><p><span style=\"font-size: 17pt\"><br></span><span style=\"font-size: 17pt\">”Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.ä\"</span></p>",
+                "title": "Título 02"
               }
             ],
             "sidebarSection": {
@@ -140,25 +129,6 @@
               "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             }
           }
-        },
-        {
-          "sidebarSection": {
-            "sidebarContentSection": [
-              {
-                "title": "Título pequeno",
-                "text": "Descrição do produto e o que ele oferece",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/b74b73f5-eae3-40d7-9cbd-11f51f24547c"
-              }
-            ],
-            "sidebarSection": {
-              "title": "CaaS",
-              "text": "Aqui tem uma descria sessão"
-            }
-          },
-          "number": 2,
-          "title": "CaaS",
-          "subtitle": "Custom as a service",
-          "label": "Conteúdo 2"
         }
       ],
       "sidebarSection": [
