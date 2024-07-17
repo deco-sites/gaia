@@ -5,11 +5,14 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 
 
 export interface CardContent {
+    /** @name Número */
+    /** @namespace Número */
     number?: number;
     title?: string;
     subtitle?: string;
-    /** @description Alternative text */
+    /** @description Nome do conteúdo */
     label?: string;
+    /** @description Conteúdo de dentro do sidebar */
     sidebarSection?: {
         sidebarSection?: SidebarSection;
         sidebarContentSection?: SidebarContentSection[];
