@@ -14,7 +14,7 @@ function Section7({
                 <p class="text-3xl md:text-[43px] text-primary text-center mb-4 leading-none -tracking-[1.29px] max-w-[544px]">{text_1}</p>
                 <p class="text-md md:text-2xl text-secondary text-center leading-none -tracking-[0.24px] max-w-[544px]">{text_2}</p>
                 <div class="flex gap-2 border-b-2 pb-2 border-[#ffffff66] mt-[60px] w-full max-w-[635px]">
-                    <input type="text" placeholder="Digite seu e-mail" class="flex-1 text-[28px] bg-transparent text-[#ffffff66] focus:outline-0 placeholder:text-[#F9F9F930]" />
+                    <input type="text" placeholder="Digite seu e-mail" class="flex-1 text-[20px] md:text-[28px] w-full bg-transparent text-[#ffffff66] focus:outline-0 placeholder:text-[#F9F9F930]" />
                     <button type="submit" class="text-lg font-base text-white">Enviar</button>
                 </div>
             </div>

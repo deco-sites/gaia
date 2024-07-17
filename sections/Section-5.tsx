@@ -3,10 +3,9 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
-
 export interface CardContent {
     /** 
-     * @title Subtítulo 
+     * @title Título do Card 
      * @description Nome do conteúdo
      */
     label?: string;
@@ -21,18 +20,27 @@ export interface CardContent {
      * @description Conteúdo de dentro do sidebar
      */
     sidebarSection?: {
+        /** @title Descrição do Produto */
         sidebarSection?: SidebarSection;
+        /** @title Descrição e imagens do Produto */
         sidebarContentSection?: SidebarContentSection[];
     };
 }
 export interface SidebarSection {
+    /** @title Título */
     title?: string;
+    /** @title Texto */
     text?: string;
 }
 export interface SidebarContentSection {
+    /** @title Identificação da descrição */
+    label?: string;
+    /** @title Imagem */
     image: ImageWidget;
+    /** @title Título */
     title: string;
     /**
+     * @title Descrição
      * @format rich-text
      * @description Texto de descrição.
      * @default It Works!
@@ -100,6 +108,7 @@ function Section5(props: Props){
   
     return (
     <section class="bg-black" id="produtos">
+        <script src="/scroll.js"></script>
         <div class="container pb-[300px] pt-[150px]">
             <h2 class="text-[40px] md:text-[58px] text-primary text-center mb-[70px] leading-none -tracking-[1.74px]">{header.title}</h2> {/* Produtos */}
             <div class="grid gap-8">
