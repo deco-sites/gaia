@@ -29,8 +29,12 @@ function Section3({
     <section class="bg-black" id="sobre">
         <div class="container py-[180px] md:py-[300px] pr-16">
             <p class="text-sm font-normal text-gray-3 uppercase mb-4 leading-none tracking-[1.4px] text-ibm">{text_1}</p>
-            <p class="hidden md:block" dangerouslySetInnerHTML={{__html: text_desktop,}}></p>
-            <p class="md:hidden" dangerouslySetInnerHTML={{__html: text_mobile,}}></p>
+            <div class="hidden md:block">
+              <p dangerouslySetInnerHTML={{__html: text_desktop,}}></p>
+            </div>
+            <div class="md:hidden">
+              <p dangerouslySetInnerHTML={{__html: text_mobile,}}></p>
+            </div>
             {/* <p class="text-secondary font-medium text- md:text-4xl leading-none -tracking-[0.36px] crystal">
                 Somos uma <span class="text-primary">DataTech de próxima geração,</span> especializada em transformar dados em inteligência de negócios.
                 <br /><br />
