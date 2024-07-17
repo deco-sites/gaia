@@ -5,14 +5,21 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 
 
 export interface CardContent {
-    /** @name Número */
-    /** @namespace Número */
-    number?: number;
-    title?: string;
-    subtitle?: string;
-    /** @description Nome do conteúdo */
+    /** 
+     * @title Subtítulo 
+     * @description Nome do conteúdo
+     */
     label?: string;
-    /** @description Conteúdo de dentro do sidebar */
+    /** @title Número */
+    number?: number;
+    /** @title Título */
+    title?: string;
+    /** @title Subtítulo */
+    subtitle?: string;
+    /** 
+     * @title Sidebar
+     * @description Conteúdo de dentro do sidebar
+     */
     sidebarSection?: {
         sidebarSection?: SidebarSection;
         sidebarContentSection?: SidebarContentSection[];
@@ -122,7 +129,7 @@ function Section5(props: Props){
                                 <p class="text-md md:text-xl font-normal text-black">{sidebarSection?.sidebarSection?.text}</p>
                             </div>
                             
-                            <div class="grid gap-[92px]">
+                            <div class="grid gap-y-24">
                                 {sidebarSection?.sidebarContentSection?.map(( { title, text_1, image } ) => (
                                 <div class="grid">
                                     { image && (
@@ -130,7 +137,7 @@ function Section5(props: Props){
                                         src={image || ""}
                                         // alt={alt}
                                         width={0}
-                                        class={"w-full mb-[92px]"}
+                                        class={"w-full mb-24"}
                                         />
                                     )}
                                     <div class="grid md:grid-cols-3 gap-5 px-4 md:px-8">
