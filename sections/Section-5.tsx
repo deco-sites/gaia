@@ -20,8 +20,8 @@ export interface SidebarSection {
     text?: string;
 }
 export interface SidebarContentSection {
-    image?: ImageWidget;
-    title?: string;
+    image: ImageWidget;
+    title: string;
     /**
      * @format rich-text
      * @description Texto de descrição.
@@ -127,10 +127,10 @@ function Section5(props: Props){
                                         src={image || ""}
                                         // alt={alt}
                                         width={0}
-                                        class={"w-full"}
+                                        class={"w-full mb-[92px]"}
                                         />
                                     )}
-                                    <div class="grid md:grid-cols-3 gap-5 px-4 md:px-8 mt-[92px]">
+                                    <div class="grid md:grid-cols-3 gap-5 px-4 md:px-8">
                                         <p class="text-md font-medium text-black">{title}</p>
                                         <div class="md:col-span-2">
                                             <div class="w-full max-w-[615px]" dangerouslySetInnerHTML={{__html: text_1,}}>
