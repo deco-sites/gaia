@@ -3279,13 +3279,13 @@ input.tab:checked + .tab-content,
   padding-top: 110px;
   padding-bottom: 110px;
 }
-.py-\[150px\] {
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
 .py-\[180px\] {
   padding-top: 180px;
   padding-bottom: 180px;
+}
+.py-\[2000px\] {
+  padding-top: 2000px;
+  padding-bottom: 2000px;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -3498,8 +3498,8 @@ input.tab:checked + .tab-content,
 .-tracking-\[1\.08px\] {
   letter-spacing: -1.08px;
 }
-.-tracking-\[1\.29px\] {
-  letter-spacing: -1.29px;
+.-tracking-\[1\.40px\] {
+  letter-spacing: -1.40px;
 }
 .-tracking-\[1\.74px\] {
   letter-spacing: -1.74px;
@@ -3753,9 +3753,14 @@ input.tab:checked + .tab-content,
     padding-right: 70px;
   }
 
-  .md\:py-\[150px\] {
-    padding-top: 150px;
-    padding-bottom: 150px;
+  .md\:py-\[200px\] {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .md\:py-\[250px\] {
+    padding-top: 250px;
+    padding-bottom: 250px;
   }
 
   .md\:py-\[300px\] {

@@ -9,9 +9,9 @@ function Section7({
 }: Props) {
   return (
     <section class="bg-black" id="contato">
-        <div class="container min-h-[50vh] flex justify-center items-center py-[150px] md:py-[150px]">
+        <div class="container min-h-[50vh] flex justify-center items-center py-[2000px] md:py-[200px]">
             <div class="flex flex-col items-center w-full">
-                <p class="text-3xl md:text-[43px] text-primary text-center mb-4 leading-none -tracking-[1.29px] max-w-[544px]">{text_1}</p>
+                <p class="text-3xl md:text-[43px] text-primary text-center mb-4 leading-none -tracking-[1.40px] max-w-[544px]">{text_1}</p>
                 <p class="text-md md:text-2xl text-secondary text-center leading-none -tracking-[0.24px] max-w-[544px]">{text_2}</p>
                 <div class="flex gap-2 border-b-2 pb-2 border-[#ffffff66] mt-[60px] w-full max-w-[635px]">
                     <input type="text" placeholder="Digite seu e-mail" class="flex-1 text-[20px] md:text-[28px] w-full bg-transparent text-[#ffffff66] focus:outline-0 placeholder:text-[#F9F9F930]" />
