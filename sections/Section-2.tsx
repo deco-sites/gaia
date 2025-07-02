@@ -1,19 +1,25 @@
-interface Props {
-  text_1?: string;
-  text_2?: string;
+import type { Video } from "apps/admin/widgets.ts";
+
+export interface Props {
+  /**
+   * @title Vídeo de fundo
+   * @description Selecione um vídeo nos assets
+   */
+  video?: Video;
 }
 
-function Section2({
-}: Props) {
+function Section2({ video }: Props) {
   return (
     <section class="bg-black relative z-[40]">
       <div class="container">
-          <video width="100%" loop autoplay muted playsinline>
-          <source src="/gaia_flor.mp4" type="video/mp4" />
-              Seu navegador não suporta a tag de vídeo.
+        {video && (
+          <video width="100%" loop autoPlay muted playsInline>
+            <source src={video} type="video/mp4" />
+            Seu navegador não suporta a tag de vídeo.
           </video>
+        )}
       </div>
-  </section>
+    </section>
   );
 }
 
