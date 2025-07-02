@@ -15,14 +15,14 @@
           }
         ]
       },
-      "width": 40
+      "width": 20
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Section-3.tsx",
         "text_1": "Transformamos dados em ação para acelerar seus resultados.",
-        "text_desktop": "<p><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">A GAIA nasceu para redefinir como marcas tomam decisões e se conectam com pessoas. Combinamos inteligência artificial, dados e criatividade para resolver desafios reais de marketing com velocidade, escala e precisão — gerando resultados concretos para o seu negócio.</span></p>",
+        "text_desktop": "<p><span style=\"color: rgb(255, 255, 255); font-size: 20pt\">A GAIA nasceu para redefinir como marcas tomam decisões e se conectam com pessoas. Combinamos inteligência artificial, dados e criatividade para resolver desafios reais de marketing com velocidade, escala e precisão — gerando resultados concretos para o seu negócio.</span></p>",
         "text_mobile": "<p><span style=\"color: rgb(255, 255, 255); font-size: 14pt\">A GAIA nasceu para redefinir como marcas tomam decisões e se conectam com pessoas. Combinamos inteligência artificial, dados e criatividade para resolver desafios reais de marketing com velocidade, escala e precisão — gerando resultados concretos para o seu negócio.</span></p>"
       }
     },
