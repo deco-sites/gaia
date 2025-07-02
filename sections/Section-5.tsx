@@ -160,26 +160,6 @@ function Section5(props: Props){
                                 </div>
                                 ))}
                             </div>
-                            <div class="mt-[100px] md:mt-[260px] border-t-2 py-[60px]">
-                                <div class="grid md:grid-cols-3 px-8">
-                                    <div class="md:col-start-2 md:col-span-2">
-                                        <div class="flex items-center justify-between">
-                                            <div>
-                                                <p class="text-sm md:text-md font-normal text-black">Próximo trabalho</p>
-                                                <p class="text-xl md:text-3xl lg:text-[86px] !leading-none font-medium text-black">CaaS</p>
-                                            </div>
-                                            <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 100 100" fill="none">
-                                                <path d="M20.8327 50L79.166 50" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M49.9994 20.8334L79.166 50L49.9993 79.1667" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                            <svg class="hidden md:block" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
-                                                <path d="M20.8327 50L79.166 50" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M49.9994 20.8334L79.166 50L49.9993 79.1667" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

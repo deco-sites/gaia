@@ -18,57 +18,22 @@
       "width": 40
     },
     {
-      "__resolveType": "site/sections/Section-1.tsx",
-      "text_1": "Transformar negócios ",
-      "text_2": "Traduzindo dados"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Section-3.tsx",
+        "text_1": "Transformamos dados em ação para acelerar seus resultados.",
+        "text_desktop": "<p><span style=\"color: #ffffff; font-size: 16pt\">A GAIA nasceu para redefinir como marcas tomam decisões e se conectam com pessoas. Combinamos inteligência artificial, dados e criatividade para resolver desafios reais de marketing com velocidade, escala e precisão — gerando resultados concretos para o seu negócio.</span></p>"
+      }
     },
     {
-      "__resolveType": "site/sections/Section-2.tsx"
+      "__resolveType": "site/sections/Section-7.tsx"
     },
     {
       "__resolveType": "site/sections/Section-3.tsx",
-      "text_1": "Sobre",
+      "text_1": "Quem Somos",
       "text_2": "<p><strong><span style=\"color: rgb(94, 94, 94); font-size: 26pt\">Somos uma </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Criamos produtos e serviços</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> que geram valor real para nossos clientes. </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> em modelo SaaS.</span></strong></p>",
-      "text_desktop": "<p><strong><span style=\"color: rgb(94, 94, 94); font-size: 26pt\">Somos uma </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> especializada em transformar dados em inteligência de negócios.</span></strong></p><p style=\"text-align: start\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Criamos produtos e serviços</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> que geram valor real para nossos clientes. </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span><span style=\"color: rgb(94, 94, 94); font-size: 26pt\"> em modelo SaaS.</span></strong></p>",
-      "text_mobile": "<p><strong><span style=\"color: rgb(94, 94, 94); font-size: 18pt\">Somos uma </span><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">DataTech de próxima geração,</span><span style=\"color: rgb(94, 94, 94); font-size: 18pt\"> especializada em transformar dados em inteligência de negócios.</span></strong></p><p style=\"text-align: start\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">Criamos produtos e serviços</span><span style=\"color: rgb(94, 94, 94); font-size: 18pt\"> que geram valor real para nossos clientes. </span><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">Oferecemos soluções prontas e desenvolvemos novos produtos</span><span style=\"color: rgb(94, 94, 94); font-size: 18pt\"> em modelo SaaS.</span></strong></p>"
-    },
-    {
-      "__resolveType": "site/sections/Section-4.tsx",
-      "title_1": "SaaS reiventado",
-      "text_1": "Domine o poder dos seus próprios dados a partir dos nossos produtos & serviços.",
-      "text_2": "Atendimento customizado e sempre próximo.",
-      "image_1": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/e7bc2ae7-f7e1-4502-940b-b1cb829165ba",
-      "width_1": "100%",
-      "image_2": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/967d85e9-6ed6-4b76-a0a6-46bd57939d69",
-      "width_2": "100%",
-      "image_3": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/70ad8308-f222-4eb3-aca9-efd203856c00",
-      "width_3": "100%",
-      "text_3": "Nós apoiamos empresas a gerarem valor a partir de dados.",
-      "images": [
-        {
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/ec5e1f78-f3e2-41cf-935d-716487575c52",
-          "alt": "Aqui",
-          "text_image": "Domine o poder dos seus próprios dados a partir dos nossos produtos & serviços.",
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/26bee098-a7b4-4f38-939b-00ddc6e9705f"
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/8208a582-920c-4d8c-8f33-4e5ff9da39b9",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/9723b43e-51ee-4870-afac-996107d61d3b",
-          "alt": "descrição da imagem",
-          "text_image": "Atendimento customizado e sempre próximo.",
-          "contentAlignment": "right"
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/3c89cea7-f344-4a05-9fcf-d13bfe4872b8",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/d901418c-ba5c-43bf-a1ba-6c66f3519bc3",
-          "alt": "Descrição da imagem",
-          "text_image": "Nós apoiamos empresas a gerarem valor a partir de dados."
-        }
-      ],
-      "title": "SaaS Reiventado"
-    },
-    {
-      "__resolveType": "site/sections/Space-1.tsx"
+      "text_desktop": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Muito além do marketing.</span></strong></p><p style=\"text-align: center\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Somos a Martech criada para a era da inteligência artificial.</span></strong></p><p style=\"text-align: center\"><strong><span style=\"color: rgb(120, 120, 120); font-size: 25pt\">A GAIA une tecnologia de ponta à sensibilidade de quem já esteve do outro lado da mesa — liderando grandes marcas de consumo. Criamos soluções próprias de AI que </span><span style=\"color: #ffffff; font-size: 25pt\">transformam dados em decisões</span><span style=\"color: rgb(120, 120, 120); font-size: 25pt\"> e </span><span style=\"color: #ffffff; font-size: 25pt\">decisões em ação</span><span style=\"color: rgb(120, 120, 120); font-size: 25pt\">, para marcas que querem crescer com consistência e relevância.</span></strong></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><strong><span style=\"color: #787878; font-size: 26pt\">Combinamos o melhor do </span><span style=\"color: #ffffff; font-size: 26pt\">martech e datatech </span><span style=\"color: #787878; font-size: 26pt\">para entregar automações, análises e experiências que antes eram i</span><span style=\"color: #ffffff; font-size: 26pt\">mpossíveis de executar — agora, ao alcance do seu time.</span></strong></p>",
+      "text_mobile": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Muito além do marketing.</span></strong></p><p style=\"text-align: center\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">Somos a Martech criada para a era da inteligência artificial.</span></strong></p><p style=\"text-align: center\"><strong><span style=\"color: rgb(120, 120, 120); font-size: 25pt\">A GAIA une tecnologia de ponta à sensibilidade de quem já esteve do outro lado da mesa — liderando grandes marcas de consumo. Criamos soluções próprias de AI que transformam dados em decisões e decisões em ação, para marcas que querem crescer com consistência e relevância.</span></strong></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><strong><span style=\"color: rgb(120, 120, 120); font-size: 26pt\">Combinamos o melhor do </span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">martech e datatech </span><span style=\"color: rgb(120, 120, 120); font-size: 26pt\">para entregar automações, análises e experiências que antes eram i</span><span style=\"color: rgb(255, 255, 255); font-size: 26pt\">mpossíveis de executar — agora, ao alcance do seu time.</span></strong></p>"
     },
     {
       "__resolveType": "site/sections/Section-5.tsx",
@@ -92,9 +57,9 @@
       "cardContent": [
         {
           "number": 1,
-          "title": "SaaS",
-          "label": "SaaS",
-          "subtitle": "Software as a service",
+          "title": "CR.IA",
+          "label": "CRIA",
+          "subtitle": "Automação criativa inteligente que multiplica resultados e economiza tempo.",
           "sidebarContent": {
             "title": "Aqui tem um título",
             "subtitle": "Aqui tem um subtitulo"
@@ -112,35 +77,43 @@
               "title_1": "asdasd",
               "text_1": "aasdasdasd"
             },
-            "sidebarContentSection": [
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/da9027b0-92b0-41ba-af0b-66b9dcf97315",
-                "title": "Titulo 01",
-                "text_1": "<p><span style=\"font-size: 17pt\">Somos uma DataTech de próxima geração, especializada em transformar dados em inteligência de negócios.</span></p><p><span style=\"font-size: 17pt\"><br>Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p><p></p>"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/f023622d-9052-4a7f-a801-a66ffe3b5a1d",
-                "text_1": "<p><span style=\"font-size: 17pt\">Somos uma DataTech de próxima geração, especializada em transformar dados em inteligência de negócios.</span></p><p><span style=\"font-size: 17pt\"><br>Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p><p><span style=\"font-size: 17pt\"><br></span><span style=\"font-size: 17pt\">”Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.ä\"</span></p>",
-                "title": "Título 02"
-              }
-            ],
+            "sidebarContentSection": [],
             "sidebarSection": {
-              "title": "SaaS",
-              "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              "title": "CR.IA",
+              "text": "Diferente de plataformas que geram peças genéricas, o CR.IA compõe inteligentemente elementos visuais — como imagens, textos, preços e chamadas — criando automaticamente centenas de variações em vídeo (MP4) ou HTML5, com qualidade e consistência de marca. Com ele, sua marca ganha a capacidade de: Atualizar peças criativas em poucos cliques, sem rebriefs ou retrabalhos;   Personalizar campanhas por região, canal, idioma ou público, mantendo consistência visual;   Ganhar tempo e escala com geração automatizada de vídeos e rich media;   Testar variações em tempo real, acelerando aprendizado e otimização de performance.   O CR.IA é ideal para varejo, turismo, franquias, alimentação, educação e bens de consumo — setores onde agilidade criativa gera vantagem competitiva. Transforme seu marketing em uma operação criativa viva e escalável."
             }
           }
+        },
+        {
+          "sidebarSection": {
+            "sidebarContentSection": [],
+            "sidebarSection": {
+              "title": "BrandSync",
+              "text": "O BrandSync monitora, em tempo real, as redes sociais de franqueados e unidades espalhadas pelo país. Garante que cada comunicação esteja alinhada ao posicionamento e identidade visual da marca, além de gerar relatórios acionáveis que fortalecem gestão e resultados."
+            }
+          },
+          "label": "BRANDSYNC",
+          "number": 2,
+          "title": "BRANDSYNC",
+          "subtitle": "Consistência de marca em cada ponto de contato."
+        },
+        {
+          "sidebarSection": {
+            "sidebarContentSection": [],
+            "sidebarSection": {
+              "title": "RAAS",
+              "text": "O RAAS implementa robôs físicos inteligentes e multilíngues que interagem com consumidores, explicam produtos, capturam dados e transformam cada contato em aprendizado, insight e conversão — conectando dados e ação em tempo real para aumentar vendas e fidelização."
+            }
+          },
+          "number": 3,
+          "label": "RAAS",
+          "title": "RAAS",
+          "subtitle": "Robôs inteligentes que convertem conversas em resultados."
         }
       ],
       "sidebarSection": [
         {}
       ]
-    },
-    {
-      "__resolveType": "site/sections/Section-6.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11374/fefc545c-80db-4f91-a2ab-c56226d27ad3"
-    },
-    {
-      "__resolveType": "site/sections/Section-7.tsx"
     },
     {
       "__resolveType": "site/sections/Section-8.tsx"

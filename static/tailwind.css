@@ -2667,9 +2667,6 @@ input.tab:checked + .tab-content,
 .mt-4 {
   margin-top: 1rem;
 }
-.mt-\[100px\] {
-  margin-top: 100px;
-}
 .mt-\[5px\] {
   margin-top: 5px;
 }
@@ -2763,8 +2760,8 @@ input.tab:checked + .tab-content,
 .min-h-\[42px\] {
   min-height: 42px;
 }
-.min-h-\[80vh\] {
-  min-height: 80vh;
+.min-h-\[50vh\] {
+  min-height: 50vh;
 }
 .min-h-\[85svh\] {
   min-height: 85svh;
@@ -2899,6 +2896,9 @@ input.tab:checked + .tab-content,
 }
 .max-w-\[80px\] {
   max-width: 80px;
+}
+.max-w-\[90\%\] {
+  max-width: 90%;
 }
 .max-w-full {
   max-width: 100%;
@@ -3125,9 +3125,6 @@ input.tab:checked + .tab-content,
 .border-b-2 {
   border-bottom-width: 2px;
 }
-.border-t-2 {
-  border-top-width: 2px;
-}
 .border-\[\#ffffff66\] {
   border-color: #ffffff66;
 }
@@ -3282,17 +3279,13 @@ input.tab:checked + .tab-content,
   padding-top: 110px;
   padding-bottom: 110px;
 }
+.py-\[150px\] {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
 .py-\[180px\] {
   padding-top: 180px;
   padding-bottom: 180px;
-}
-.py-\[250px\] {
-  padding-top: 250px;
-  padding-bottom: 250px;
-}
-.py-\[60px\] {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -3489,6 +3482,9 @@ input.tab:checked + .tab-content,
 }
 .leading-none {
   line-height: 1;
+}
+.leading-normal {
+  line-height: 1.5;
 }
 .-tracking-\[0\.24px\] {
   letter-spacing: -0.24px;
@@ -3691,16 +3687,8 @@ input.tab:checked + .tab-content,
     grid-column: span 2 / span 2;
   }
 
-  .md\:col-start-2 {
-    grid-column-start: 2;
-  }
-
   .md\:mt-\[200px\] {
     margin-top: 200px;
-  }
-
-  .md\:mt-\[260px\] {
-    margin-top: 260px;
   }
 
   .md\:block {
@@ -3717,6 +3705,10 @@ input.tab:checked + .tab-content,
 
   .md\:min-h-\[80svh\] {
     min-height: 80svh;
+  }
+
+  .md\:max-w-\[80\%\] {
+    max-width: 80%;
   }
 
   .md\:grid-cols-2 {
@@ -3761,9 +3753,9 @@ input.tab:checked + .tab-content,
     padding-right: 70px;
   }
 
-  .md\:py-\[275px\] {
-    padding-top: 275px;
-    padding-bottom: 275px;
+  .md\:py-\[150px\] {
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
 
   .md\:py-\[300px\] {
@@ -3788,6 +3780,10 @@ input.tab:checked + .tab-content,
 
   .md\:text-\[108px\] {
     font-size: 108px;
+  }
+
+  .md\:text-\[24px\] {
+    font-size: 24px;
   }
 
   .md\:text-\[28px\] {
@@ -3837,6 +3833,10 @@ input.tab:checked + .tab-content,
 
   .lg\:max-h-\[600px\] {
     max-height: 600px;
+  }
+
+  .lg\:max-w-\[60\%\] {
+    max-width: 60%;
   }
 
   .lg\:flex-\[100px\] {

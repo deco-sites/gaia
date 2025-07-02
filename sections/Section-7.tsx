@@ -4,12 +4,12 @@ interface Props {
 }
 
 function Section7({
-  text_1 = "Os dados precisam te ajudar a sair do labirinto",
-  text_2 = "Deixa seu e-mail com a gente que a gente",
+  text_1 = "Descubra como transformar sua marca",
+  text_2 = "Deixa seu e-mail com a gente e vamos te procurar",
 }: Props) {
   return (
     <section class="bg-black" id="contato">
-        <div class="container min-h-[80vh] flex justify-center items-center py-[250px] md:py-[275px]">
+        <div class="container min-h-[50vh] flex justify-center items-center py-[150px] md:py-[150px]">
             <div class="flex flex-col items-center w-full">
                 <p class="text-3xl md:text-[43px] text-primary text-center mb-4 leading-none -tracking-[1.29px] max-w-[544px]">{text_1}</p>
                 <p class="text-md md:text-2xl text-secondary text-center leading-none -tracking-[0.24px] max-w-[544px]">{text_2}</p>
