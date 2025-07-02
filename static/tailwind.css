@@ -3857,6 +3857,15 @@ input.tab:checked + .tab-content,
     grid-template-columns: repeat(7, minmax(0, 1fr));
   }
 }
+.\[\&\>p\]\:mb-4>p {
+  margin-bottom: 1rem;
+}
+.\[\&\>ul\]\:ml-6>ul {
+  margin-left: 1.5rem;
+}
+.\[\&\>ul\]\:list-disc>ul {
+  list-style-type: disc;
+}
 .htmx-request .\[\.htmx-request_\&\]\:inline {
   display: inline;
 }

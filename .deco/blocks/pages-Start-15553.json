@@ -75,10 +75,13 @@
               "title_1": "asdasd",
               "text_1": "aasdasdasd"
             },
-            "sidebarContentSection": [],
+            "sidebarContentSection": [
+              {
+                "text_1": "<p><span style=\"color: rgb(0, 0, 0); font-size: 19pt\">Diferente de plataformas que geram peças genéricas, o CR.IA compõe inteligentemente elementos visuais — como imagens, textos, preços e chamadas — criando automaticamente centenas de variações em vídeo (MP4) ou HTML5, com qualidade e consistência de marca.</span></p><p><span style=\"color: rgb(0, 0, 0); font-size: 19pt\">Com ele, sua marca ganha a capacidade de:</span></p><ul><li><p><span style=\"color: rgb(0, 0, 0); font-size: 19pt\">Atualizar peças criativas em poucos cliques, sem rebriefs ou retrabalhos;<br><br></span></p></li><li><p><span style=\"color: rgb(0, 0, 0); font-size: 19pt\">Personalizar campanhas por região, canal, idioma ou público, mantendo consistência visual;<br><br></span></p></li><li><p><span style=\"color: rgb(0, 0, 0); font-size: 19pt\">Ganhar tempo e escala com geração automatizada de vídeos e rich media;<br><br></span></p></li><li><p><span style=\"color: rgb(0, 0, 0); font-size: 19pt\">Testar variações em tempo real, acelerando aprendizado e otimização de performance.<br><br></span></p></li></ul><p><span style=\"color: rgb(0, 0, 0); font-size: 19pt\">O CR.IA é ideal para varejo, turismo, franquias, alimentação, educação e bens de consumo — setores onde agilidade criativa gera vantagem competitiva.</span></p>"
+              }
+            ],
             "sidebarSection": {
-              "title": "CR.IA",
-              "text": "Diferente de plataformas que geram peças genéricas, o CR.IA compõe inteligentemente elementos visuais — como imagens, textos, preços e chamadas — criando automaticamente centenas de variações em vídeo (MP4) ou HTML5, com qualidade e consistência de marca. Com ele, sua marca ganha a capacidade de: Atualizar peças criativas em poucos cliques, sem rebriefs ou retrabalhos;   Personalizar campanhas por região, canal, idioma ou público, mantendo consistência visual;   Ganhar tempo e escala com geração automatizada de vídeos e rich media;   Testar variações em tempo real, acelerando aprendizado e otimização de performance.   O CR.IA é ideal para varejo, turismo, franquias, alimentação, educação e bens de consumo — setores onde agilidade criativa gera vantagem competitiva. Transforme seu marketing em uma operação criativa viva e escalável."
+              "title": "CR.IA"
             }
           }
         },

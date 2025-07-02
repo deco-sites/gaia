@@ -16,13 +16,18 @@ export interface CardContent {
     /** @title Subtítulo */
     subtitle?: string;
     /** 
+     * @format rich-text
      * @title Sidebar
      * @description Conteúdo de dentro do sidebar
      */
     sidebarSection?: {
-        /** @title Descrição do Produto */
+        /** 
+         * @format rich-text 
+         * @title Descrição do Produto */
         sidebarSection?: SidebarSection;
-        /** @title Descrição e imagens do Produto */
+        /** 
+         * @format rich-text
+         * @title Descrição e imagens do Produto */
         sidebarContentSection?: SidebarContentSection[];
     };
 }
@@ -36,12 +41,12 @@ export interface SidebarContentSection {
     /** @title Identificação da descrição */
     label?: string;
     /** @title Imagem */
-    image: ImageWidget;
+    image?: ImageWidget;
     /** @title Título */
-    title: string;
+    title?: string;
     /**
-     * @title Descrição
      * @format rich-text
+     * @title Descrição
      * @description Texto de descrição.
      * @default It Works!
      */
@@ -109,14 +114,14 @@ function Section5(props: Props){
     return (
     <section class="bg-black" id="produtos">
         <script src="/scroll.js"></script>
-        <div class="container flex flex-col justify-center items-center min-h-[60vh] py-10 md:py-16">
+        <div class="container flex flex-col justify-center min-h-[60vh] py-10 md:py-16">
             <h2 class="text-[40px] md:text-[58px] text-primary text-center mb-[70px] leading-none -tracking-[1.74px]">{header.title}</h2> {/* Produtos */}
             <div class="grid gap-8">
                 {cardContent.map(( { number, title, subtitle, sidebarSection } ) => (
                 <div class="drawer drawer-end">
                     <input id={`my-drawer-${number}`} type="checkbox" class="drawer-toggle" />
                     <div class="drawer-content">
-                        <label for={`my-drawer-${number}`} class="drawer-button flex items-center justify-between gap-2 md:gap-6 py-4 border-b cursor-pointer">
+                        <label for={`my-drawer-${number}`} class="drawer-button flex justify-between gap-2 md:gap-6 py-4 border-b cursor-pointer">
                             <p class="text-lg md:text-xl text-gray-2 font-normal">{number}.</p>
                             <p class="text-lg md:text-xl text-primary font-medium">{title}</p>
                             <p class="flex-1 text-right text-lg md:text-xl text-gray-2 font-normal">{subtitle}</p>
@@ -152,7 +157,7 @@ function Section5(props: Props){
                                     <div class="grid md:grid-cols-3 gap-5 px-4 md:px-8">
                                         <p class="text-md font-medium text-black">{title}</p>
                                         <div class="md:col-span-2">
-                                            <div class="w-full max-w-[615px]" dangerouslySetInnerHTML={{__html: text_1,}}>
+                                            <div class="w-full max-w-[615px] text-left text-black [&>p]:mb-4 [&>ul]:list-disc [&>ul]:ml-6" dangerouslySetInnerHTML={{__html: text_1,}}>
                                                 {/* <p class="text-md md:text-xl font-medium text-black"dangerouslySetInnerHTML={{__html: text}}></p> */}
                                             </div>
                                         </div>
