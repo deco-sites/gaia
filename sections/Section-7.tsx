@@ -9,7 +9,7 @@ function Section7({
 }: Props) {
   return (
     <section class="bg-black" id="contato">
-        <div class="container min-h-[50vh] flex justify-center items-center py-[2000px] md:py-[200px]">
+      <div class="container flex flex-col justify-center items-center min-h-[60vh] py-10 md:py-16">
             <div class="flex flex-col items-center w-full">
                 <p class="text-3xl md:text-[43px] text-primary text-center mb-4 leading-none -tracking-[1.40px] max-w-[544px]">{text_1}</p>
                 <p class="text-md md:text-2xl text-secondary text-center leading-none -tracking-[0.24px] max-w-[544px]">{text_2}</p>

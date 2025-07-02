@@ -109,7 +109,7 @@ function Section5(props: Props){
     return (
     <section class="bg-black" id="produtos">
         <script src="/scroll.js"></script>
-        <div class="container pb-[300px] pt-[150px]">
+        <div class="container flex flex-col justify-center items-center min-h-[60vh] py-10 md:py-16">
             <h2 class="text-[40px] md:text-[58px] text-primary text-center mb-[70px] leading-none -tracking-[1.74px]">{header.title}</h2> {/* Produtos */}
             <div class="grid gap-8">
                 {cardContent.map(( { number, title, subtitle, sidebarSection } ) => (

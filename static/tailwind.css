@@ -2760,8 +2760,8 @@ input.tab:checked + .tab-content,
 .min-h-\[42px\] {
   min-height: 42px;
 }
-.min-h-\[50vh\] {
-  min-height: 50vh;
+.min-h-\[60vh\] {
+  min-height: 60vh;
 }
 .min-h-\[85svh\] {
   min-height: 85svh;
@@ -3283,10 +3283,6 @@ input.tab:checked + .tab-content,
   padding-top: 180px;
   padding-bottom: 180px;
 }
-.py-\[2000px\] {
-  padding-top: 2000px;
-  padding-bottom: 2000px;
-}
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -3298,9 +3294,6 @@ input.tab:checked + .tab-content,
 }
 .pb-\[15px\] {
   padding-bottom: 15px;
-}
-.pb-\[300px\] {
-  padding-bottom: 300px;
 }
 .pb-\[64px\] {
   padding-bottom: 64px;
@@ -3340,9 +3333,6 @@ input.tab:checked + .tab-content,
 }
 .pt-5 {
   padding-top: 1.25rem;
-}
-.pt-\[150px\] {
-  padding-top: 150px;
 }
 .text-left {
   text-align: left;
@@ -3753,9 +3743,9 @@ input.tab:checked + .tab-content,
     padding-right: 70px;
   }
 
-  .md\:py-\[200px\] {
-    padding-top: 200px;
-    padding-bottom: 200px;
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .md\:py-\[250px\] {
