@@ -87,10 +87,13 @@
         },
         {
           "sidebarSection": {
-            "sidebarContentSection": [],
+            "sidebarContentSection": [
+              {
+                "text_1": "<p><span style=\"color: #000000; font-size: 19pt\">O BrandSync monitora, em tempo real, as redes sociais de franqueados e unidades espalhadas pelo país. Garante que cada comunicação esteja alinhada ao posicionamento e identidade visual da marca, além de gerar relatórios acionáveis que fortalecem gestão e resultados.</span></p>"
+              }
+            ],
             "sidebarSection": {
-              "title": "BrandSync",
-              "text": "O BrandSync monitora, em tempo real, as redes sociais de franqueados e unidades espalhadas pelo país. Garante que cada comunicação esteja alinhada ao posicionamento e identidade visual da marca, além de gerar relatórios acionáveis que fortalecem gestão e resultados."
+              "title": "BrandSync"
             }
           },
           "label": "BRANDSYNC",
@@ -100,10 +103,13 @@
         },
         {
           "sidebarSection": {
-            "sidebarContentSection": [],
+            "sidebarContentSection": [
+              {
+                "text_1": "<p><span style=\"color: #000000; font-size: 19pt\">O RAAS implementa robôs físicos inteligentes e multilíngues que interagem com consumidores, explicam produtos, capturam dados e transformam cada contato em aprendizado, insight e conversão — conectando dados e ação em tempo real para aumentar vendas e fidelização.</span></p>"
+              }
+            ],
             "sidebarSection": {
-              "title": "RAAS",
-              "text": "O RAAS implementa robôs físicos inteligentes e multilíngues que interagem com consumidores, explicam produtos, capturam dados e transformam cada contato em aprendizado, insight e conversão — conectando dados e ação em tempo real para aumentar vendas e fidelização."
+              "title": "RAAS"
             }
           },
           "number": 3,
