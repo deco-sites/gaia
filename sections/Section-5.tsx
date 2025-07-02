@@ -155,7 +155,6 @@ function Section5(props: Props){
                                         />
                                     )}
                                     <div class="grid md:grid-cols-3 gap-5 px-4 md:px-8">
-                                        <p class="text-md font-medium text-black">{title}</p>
                                         <div class="md:col-span-2">
                                             <div class="w-full max-w-[615px] text-left text-black [&>p]:mb-4 [&>ul]:list-disc [&>ul]:ml-6" dangerouslySetInnerHTML={{__html: text_1,}}>
                                                 {/* <p class="text-md md:text-xl font-medium text-black"dangerouslySetInnerHTML={{__html: text}}></p> */}
