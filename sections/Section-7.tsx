@@ -5,20 +5,26 @@ interface Props {
 
 function Section7({
   text_1 = "Descubra como transformar sua marca",
-  text_2 = "Deixa seu e-mail com a gente e vamos te procurar",
+  text_2 = "Clique aqui e nos mande uma mensagem que logos retornaremos.",
 }: Props) {
   return (
     <section class="bg-black" id="contato">
       <div class="container flex flex-col justify-center items-center min-h-[60vh] py-10 md:py-16">
-            <div class="flex flex-col items-center w-full">
-                <p class="text-3xl md:text-[43px] text-primary text-center mb-4 leading-none -tracking-[1.40px] max-w-[544px]">{text_1}</p>
-                <p class="text-md md:text-2xl text-secondary text-center leading-none -tracking-[0.24px] max-w-[544px]">{text_2}</p>
-                <div class="flex gap-2 border-b-2 pb-2 border-[#ffffff66] mt-[60px] w-full max-w-[635px]">
-                    <input type="text" placeholder="Digite seu e-mail" class="flex-1 text-[20px] md:text-[28px] w-full bg-transparent text-[#ffffff66] focus:outline-0 placeholder:text-[#F9F9F930]" />
-                    <button type="submit" class="text-lg font-base text-white">Enviar</button>
-                </div>
-            </div>
+        <div class="flex flex-col items-center w-full">
+          <p class="text-3xl md:text-[43px] text-primary text-center mb-4 leading-none -tracking-[1.40px] max-w-[544px]">
+            {text_1}
+          </p>
+          <p class="text-md md:text-2xl text-secondary text-center leading-none -tracking-[0.24px] max-w-[544px]">
+            {text_2}
+          </p>
+          <a
+            href="mailto:contato@gaia.dev?subject=Quero%20falar%20com%20o%20time%20de%20vendas%20sobre%20produtos%20GAIA."
+            class="mt-[60px] text-lg md:text-xl text-white border-2 border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300"
+          >
+            Mande uma Mensagem
+          </a>
         </div>
+      </div>
     </section>
   );
 }
