@@ -1,15 +1,17 @@
 interface Props {
   text_1?: string;
   text_2?: string;
+  text_3?: string;
 }
 
 function Section7({
   text_1 = "Descubra como transformar sua marca",
   text_2 = "Clique aqui e nos mande uma mensagem que logos retornaremos.",
+  text_3 = "contato@gaia.dev"
 }: Props) {
   return (
     <section class="bg-black" id="contato">
-      <div class="container flex flex-col justify-center items-center min-h-[60vh] py-10 md:py-16">
+      <div class="container flex flex-col justify-center items-center min-h-[30vh] py-10 md:py-16">
         <div class="flex flex-col items-center w-full">
           <p class="text-3xl md:text-[43px] text-primary text-center mb-4 leading-none -tracking-[1.40px] max-w-[544px]">
             {text_1}
@@ -23,6 +25,9 @@ function Section7({
           >
             Mande uma Mensagem
           </a>
+          <p class="mt-4 text-md md:text-xl text-secondary text-center leading-none -tracking-[0.24px] max-w-[544px]">
+            {text_3}
+          </p>
         </div>
       </div>
     </section>

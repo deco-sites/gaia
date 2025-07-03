@@ -28,7 +28,7 @@ function Section3({
 }: Props) {
   return (
     <section class="bg-black" id="sobre">
-        <div class="container flex flex-col justify-center min-h-[100vh] py-30 md:py-30">
+        <div class="container flex flex-col justify-center min-h-[50vh] py-30 md:py-30">
             <p class="text-sm font-normal text-gray-3 uppercase mb-4 leading-none tracking-[1.4px] text-ibm">{text_1}</p>
             <div class="hidden md:block">
               <p dangerouslySetInnerHTML={{__html: text_desktop,}}></p>

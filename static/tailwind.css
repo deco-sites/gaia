@@ -2746,17 +2746,20 @@ input.tab:checked + .tab-content,
 .min-h-\[100px\] {
   min-height: 100px;
 }
-.min-h-\[100vh\] {
-  min-height: 100vh;
-}
 .min-h-\[157px\] {
   min-height: 157px;
+}
+.min-h-\[30vh\] {
+  min-height: 30vh;
 }
 .min-h-\[40px\] {
   min-height: 40px;
 }
 .min-h-\[42px\] {
   min-height: 42px;
+}
+.min-h-\[50vh\] {
+  min-height: 50vh;
 }
 .min-h-\[60vh\] {
   min-height: 60vh;
