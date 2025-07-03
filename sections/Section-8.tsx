@@ -5,7 +5,7 @@ interface Props {
   
   function Section8({
     text_1 = "Rua Mourato Coelho, 1.404, 5º andar Vila Madalena, São Paulo SP CEP 05417-002",
-    href = "https://www.linkedin.com",
+    href = "https://www.linkedin.com/company/gaia1datatech/",
   }: Props) {
   return (
     <section class="bg-black pb-[64px]">
